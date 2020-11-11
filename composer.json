@@ -1,0 +1,33 @@
+{
+  "name": "genetus/symfony-comander",
+  "description": "Helper to group command and control execution",
+  "type": "symfony-bundle",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Antonov Maxim",
+      "email": "genetus@yandex.ru"
+    }
+  ],
+  "require": {
+    "php": "^7.4",
+    "symfony/console": "^4.4|^5.0"
+  },
+  "require-dev": {
+    "roave/security-advisories": "dev-master",
+    "phpunir/phpunit": "^9"
+  },
+  "autoload": {
+    "psr-4": {
+      "Genetus\\SymfonyCommander\\": ""
+    },
+    "exclude-from-classmap": [
+      "/Tests/"
+    ]
+  },
+  "extra": {
+    "branch-alias": {
+      "dev-master": "4.0.x-dev"
+    }
+  }
+}

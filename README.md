@@ -1,2 +1,4 @@
-# symfony-comander
-Symfony Comander
+# symfony-commander
+Symfony Commander
+
+Status: WIP
